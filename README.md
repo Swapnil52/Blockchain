@@ -1,3 +1,4 @@
+
 ## Blockchain Client and Server
 
 Blockchain is the newest buzzword in the fintech world, as popular as artificial-intelligence and machine-learning. Introduced by Bitcoin in 2009, it has shown immense potential in applications transcending cryptocurrency. It stands to change the ways in which we interact with the internet.  Blockchain is a revolutionary concept wherein transactions are represented as ‘blocks’, immutable segments of information which are shown to every participant in the network. It promises immutability, transparency, and trust by consensus.
