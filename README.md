@@ -28,8 +28,14 @@ Fixing the blockchain is the most time-consuming task. Should a modification occ
 The fix message is like the catch-up message – it triggers a download of the server’s blockchain to the client. The client replaces their own blockchain with the server’s version. There are some nuances in this method, though:
 The server, to maintain concurrency, puts the target client’s thread into a wait state. This is done by using a static variable fixedCount. Being static, fixedCount is reflected as is, on every client thread. The target client stays in the wait state as long as all the nodes which were connected at the time of the fix request don’t fix their blockchains. This is important, as it can cause a deadlock if a new client joins and issues a fix request. 
 
+### Screenshots
+
+<img src = "https://github.com/Swapnil52/Blockchain/blob/master/Blockchain%20Client/src/BlockchainClient/screenshot.PNG?raw=true" height = 300>
+
+<img src = "https://github.com/Swapnil52/Blockchain/blob/master/Blockchain%20Server/src/BlockchainServer/screenshot.PNG?raw=true">
+
 ### Scope of improvement:
 
- -  I know, there is tremendous scope of improvement in the user interface! 
+ -  Please excuse the UI. There's a tremendous scope of improvement there!
  -  The concept of Proof of Work and miners can be introduced
 
