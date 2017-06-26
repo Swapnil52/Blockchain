@@ -36,7 +36,7 @@ The server, to maintain concurrency, puts the target client’s thread into a wa
 
 ### Scope of improvement:
 
- -  Please excuse the UI. There's a tremendous scope of improvement there!
+ -  Please excuse the UI. There's tremendous scope of improvement there!
  -  The concept of Proof of Work and miners can be introduced
  
 ### Project Maintainers:
