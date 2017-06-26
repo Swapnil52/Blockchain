@@ -1,4 +1,3 @@
-
 ## Blockchain Client and Server
 
 Blockchain is the newest buzzword in the fintech world, as popular as artificial-intelligence and machine-learning. Introduced by Bitcoin in 2009, it has shown immense potential in applications transcending cryptocurrency. It stands to change the ways in which we interact with the internet.  Blockchain is a revolutionary concept wherein transactions are represented as ‘blocks’, immutable segments of information which are shown to every participant in the network. It promises immutability, transparency, and trust by consensus.
@@ -29,7 +28,7 @@ Fixing the blockchain is the most time-consuming task. Should a modification occ
 The fix message is like the catch-up message – it triggers a download of the server’s blockchain to the client. The client replaces their own blockchain with the server’s version. There are some nuances in this method, though:
 The server, to maintain concurrency, puts the target client’s thread into a wait state. This is done by using a static variable fixedCount. Being static, fixedCount is reflected as is, on every client thread. The target client stays in the wait state as long as all the nodes which were connected at the time of the fix request don’t fix their blockchains. This is important, as it can cause a deadlock if a new client joins and issues a fix request. 
 
-### Screenshots
+### Screenshots:
 
 <img src = "https://github.com/Swapnil52/Blockchain/blob/master/Blockchain%20Client/src/BlockchainClient/screenshot.PNG?raw=true" height = 300>
 
@@ -39,4 +38,7 @@ The server, to maintain concurrency, puts the target client’s thread into a wa
 
  -  Please excuse the UI. There's a tremendous scope of improvement there!
  -  The concept of Proof of Work and miners can be introduced
+ 
+### Project Maintainers:
+This project is actively maintained by Swapnil Dhanwal. For queries, please send an email to swapnildhanwal@hotmail.com
 
